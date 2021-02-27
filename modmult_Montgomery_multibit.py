@@ -56,7 +56,7 @@ if accu > m:
 print('Result in Montgomery domain:  ',accu)
 
 # inverse conversion: comment for larger modulus!
-#phi_m = m - 1  # for prime numbers only!
+# phi_m = m - 1  # for prime numbers only!
 # phi_m = (211 - 1) * (157 - 1) # for the composite number set in line 11
 # R_inv = R ** (phi_m - 1) % m
 # accu  = accu * R_inv % m
