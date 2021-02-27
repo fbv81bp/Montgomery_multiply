@@ -10,7 +10,7 @@ y  = 6553456 # multiplicand
 # m = 65537 # 17 bits
 # m = 12578413 # 24 bits
 m = 279231519537917 # 48 bits
-#m = 211 * 157 # 16 bit composite number of two primes
+# m = 211 * 157 # 16 bit composite number of two primes
 bit_width = 11  # any arbitrary length
 
 print('Expected result:',x * y % m)
@@ -33,7 +33,7 @@ print('Modulus length in bit width steps:', mod_bit_len)
 
 R = num_sys_base**mod_bit_len
 
-# Uncomment to see inner result if x and y are both converted too in line 41 and 42
+# Uncomment to see inner result if x and y are all converted in line 41 and 42
 # result = x * y % m
 # converted = result * R % m
 # print('Expexted in Montgomery domain:', converted)
